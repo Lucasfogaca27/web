@@ -1,0 +1,146 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Playfair Display', serif;
+}
+#topoPorcento{
+    width: 100%;
+    background-color: black;
+    height: 30px;
+
+}
+#topo{
+    width: 980px;
+    height: 100px;
+  /*  background-color: black; */
+    margin: auto;
+}
+#logo{
+    width: 300;
+    height: 100;
+   /* background-color: blue; */
+    float: left;
+}
+#logo img{
+    width: 100px;
+    
+}
+#menu{
+    width: 680;
+    height: 70;
+   /* background-color: orange; */
+    float: right;
+    color: black;
+    word-spacing: 10px;
+    text-align: center;
+    padding-top: 30px;
+}
+#menu a{
+   /* color: lightskyblue; */
+    text-decoration: none;
+}
+#menu a:hover{
+    color: blueviolet;
+}
+#banner{
+    width: 100%;
+    height: 450;
+   /* background-color: red; */
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: url('bannersenac.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#container{
+    width: 980px;
+    height: auto;
+ /*   background-color: brown; */
+    margin: auto;
+}
+.imagemEmpresa{
+    width: 250px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+.imagemProduto{
+    width: 300px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+.imagemServico{
+    width: 250px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+.imagemServico2{
+    width: 300px;
+    float: right;
+    margin: 10px 10px 10px 10px;
+}
+#esquerda{
+    width: 400px;
+    height: auto;
+  /*  background-color: aquamarine; */
+    float: left;
+    text-align: justify;
+}
+#esquerda h1{
+    font-size: 12px;
+    padding-left: 20px;
+    color: goldenrod;
+}
+
+#direita{
+    width: 400;
+    height: auto;
+   /* background-color:chartreuse; */
+    float: right;
+    text-align: justify;
+}
+#direita h1{
+    font-size: 12px;
+    padding-left: 20px;
+    color: goldenrod;
+}
+#rodape{
+    width: 980;
+    height: 40;
+    background-color: black; 
+    margin: auto;
+    color: white;
+    text-align: center;
+    clear: both;
+}
+#rodapePorceto{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    clear: both;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+input[type=submit]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    border: 0px;
+}

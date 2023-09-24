@@ -1,0 +1,50 @@
+* body{
+    margin: 0px;
+    padding: 0px;
+}
+.percentual{
+    width: 100%;
+    height: 50px;
+    background-color:black;
+}
+
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: brown;
+}
+@media(max-width: 600px){
+    
+    
+}
+#esquerda{
+    width: 400px;
+    height: auto;
+    float: left;
+    text-align: justify;
+    margin-top: 20px;
+}
+#direita{
+    width: 400px;
+    height: auto;
+    float: right;
+    margin-top: 20px;
+}
+#p{
+    margin-top: 20px;
+    text-align: center;
+}
+.linha{
+    margin: 10px 0;
+    height: 2px;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(green), to(gray), color-stop(50%, green));
+}
+#container{
+    background-color: darkslategray;
+}
+#bannterte{
+    text-align: center;
+    margin-top: -270px;
+}
