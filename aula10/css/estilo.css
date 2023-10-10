@@ -1,0 +1,81 @@
+* body{
+    margin: 0px;
+    padding: 0px;
+}
+.bg-imagem{
+    width: 100%;
+    height: 500px;
+    opacity: 1;
+    position: absolute;
+    border-radius: 0px 0px 50% 50%;
+
+    
+}
+.bg-demo{
+    overflow: hidden;
+    position: relative;
+    height: 500px;
+}
+.escrita{
+    position: relative;
+}
+.nav-link{
+    color:white;
+    font-size: 16px;
+}
+.espacamento{
+    margin: 10px 10px 10px 10px;
+    float: left;
+
+}
+.formulario{
+    width: 400px;
+      height: 50px;
+      border-radius: 20px;
+ 
+
+  }
+  .botao{
+    width: 100px;
+    height: 55px;
+    background-color: rgb(31, 202, 245);
+    border-radius: 20px;
+   
+
+  }
+
+
+ 
+  #abs1 {
+    z-index: 5;
+    position: absolute;
+    width: 150px;
+    height: 350px;
+    top: 10px;
+    left: 10px;
+   
+  }
+ 
+
+ 
+  #rel2 {
+    z-index: 1;
+    width: 400px;
+    height: 100px;
+    position: relative;
+    top: 15px;
+    left: 20px;
+   
+   
+  }
+ 
+  #abs2 {
+    z-index: 2;
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    top:80px;
+    right: 10px;
+   
+
+  }

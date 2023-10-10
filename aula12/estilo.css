@@ -1,0 +1,26 @@
+* body{
+    margin: 0px;
+    padding: 0px;
+}
+.estiliza{
+    width: auto;
+    margin: auto;
+    height: auto;
+    color: white;
+    text-align: center;
+}
+.centraliza{
+    margin-bottom: 185px;
+}
+@media(max-width: 768px){
+    .estiliza{
+        width: auto;
+        margin: auto;
+        height: auto;
+        color: white;
+        text-align: center;
+    }
+}
+@media(max-width: 545px){
+
+}
